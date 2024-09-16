@@ -1,0 +1,28 @@
+{
+	"name": "atp-signatures",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev --host 127.0.0.1",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/adapter-static": "^3.0.4",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0-next.6",
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.4.45",
+		"svelte": "^5.0.0-next.1",
+		"tailwindcss": "^3.4.11",
+		"vite": "^5.0.3"
+	},
+	"type": "module",
+	"dependencies": {
+		"@atproto/api": "^0.13.7",
+		"@atproto/crypto": "^0.4.1",
+		"@atproto/oauth-client-browser": "^0.2.1",
+		"@did-plc/lib": "^0.0.4"
+	}
+}
