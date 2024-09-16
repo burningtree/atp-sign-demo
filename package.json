@@ -23,6 +23,7 @@
 		"@atproto/api": "^0.13.7",
 		"@atproto/crypto": "^0.4.1",
 		"@atproto/oauth-client-browser": "^0.2.1",
-		"@did-plc/lib": "^0.0.4"
+		"@did-plc/lib": "^0.0.4",
+		"uint8arrays": "^5.1.0"
 	}
 }
